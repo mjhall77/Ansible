@@ -1,0 +1,4 @@
+
+version: v1.0
+message: "This is {{ inventory_hostname }}."
+

@@ -1,0 +1,8 @@
+---
+# tasks file for webapp
+
+- name: Add index.html content
+  copy:
+    content: "{{ message }} (version {{ version }})\n"
+    dest: /var/www/html/index.html
+
