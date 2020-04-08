@@ -1,4 +1,4 @@
 
-version: v1.0
-message: "This is {{ inventory_hostname }}."
+webapp_version: v1.0
+webapp_message: "This is {{ inventory_hostname }}."
 

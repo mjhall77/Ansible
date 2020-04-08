@@ -1,0 +1,6 @@
+ansible-doc -t inventory -l
+	- ansible-doc -t inventory yaml    -> 
+
+ansible-config dump
+
+ansible-invetory --yaml -i <inventory_file> --list --output <filename>.yml

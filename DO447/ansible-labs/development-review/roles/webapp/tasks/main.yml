@@ -3,6 +3,6 @@
 
 - name: Add index.html content
   copy:
-    content: "{{ message }} (version {{ version }})\n"
+    content: "{{ webapp_message }} (version {{ webapp_version }})\n"
     dest: /var/www/html/index.html
 
