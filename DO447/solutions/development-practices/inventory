@@ -1,0 +1,10 @@
+[lb_servers]
+servera.lab.example.com
+
+[web_servers]
+server[b:c].lab.example.com
+
+
+[region_eu]
+serverc.lab.example.com
+serverf.lab.example.com
